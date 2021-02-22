@@ -1,7 +1,7 @@
 #!/usr/bin/python
 from socket import *
-serverName = '127.0.0.1'
-serverPort = 12002
+serverName = '65.0.204.13'#'127.0.0.1'
+serverPort = 12000
 clientSocket = socket(AF_INET, SOCK_STREAM)
 clientSocket.connect((serverName,serverPort))
 sentence = raw_input('Input lowercase sentence:')
