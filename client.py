@@ -2,7 +2,7 @@ import sys
 import threading
 from socket import *
 
-host = '127.0.0.1'
+host = '65.0.204.13'#'127.0.0.1'
 
 if len(sys.argv) < 3:
     print("Please enter server port number and username respectively")
